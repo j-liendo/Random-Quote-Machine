@@ -56,12 +56,12 @@ const newColorRandom = () => {
     return randomNumber;
 }
 
-const changeColor = (color = newColorRandom(), time = 1000, initial = false) => {
+const changeColor = (color = newColorRandom(), time = 1000) => {
 
     // Print Quote
-    if (!initial) {
-        getQuote();
-    }
+    // if (!initial) {
+    // }
+    getQuote();
 
     // favicon
     $('#favicon').attr('href', `./img/favicon-${colors.names[color]}.svg`)
@@ -99,7 +99,7 @@ $(document).ready(function() {
     })
 
     // Initial Color
-    changeColor(tnow, 0, true)
+    changeColor(tnow, 0)
 
     // Button function
     $("button").on("click", () => changeColor())
