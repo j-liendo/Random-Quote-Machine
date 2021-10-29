@@ -1,0 +1,15 @@
+# Ignore the bootstrap directory
+bootstrap/
+
+# Ignore Logs
+logs
+*.log
+
+# Ignore the build directory
+/dist
+
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sw*
