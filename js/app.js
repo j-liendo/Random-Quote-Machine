@@ -9,15 +9,15 @@ let colors = {
     names: ["primary", "success", "danger", "warning", "info"],
     hex: {
         // Primary
-        0: "#83283",
+        0: "#cc3366",
         // Success
-        1: "#41d7a7",
+        1: "#288528",
         // Danger
-        2: "#fd7e14",
+        2: "#076aff",
         // Warning
-        3: "#ffc107",
+        3: "#0066cc",
         // Info
-        4: "#39cbfb",
+        4: "#428ca5",
     }
 }
 
